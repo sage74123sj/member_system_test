@@ -1,0 +1,18 @@
+-
+  case_name: 名称为空
+  data:
+    identities: 2001
+    mobile: 13233333331
+    money: 0
+    name:
+    sex: 1
+  validate: -2
+
+-
+  case_name: 正常数据
+  data:
+    identities: 2001
+    mobile: 13233333331
+    money: 0
+    name: test01980
+  validate: 200
